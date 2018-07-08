@@ -37,7 +37,6 @@ inline char_array::~char_array()		//destructor
 
 inline void char_array::getinput(char **pp_stringin)
 {
-	printf("Enter string: ");		//delete later
 	stringsize = 0;
 	scanf("%63s", stringarray);	//get input string
 
