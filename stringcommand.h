@@ -10,8 +10,8 @@
 class char_array
 {
 	private:
-		char *p_stringarray;					//initial input array
-		char *p_inputstring;					//holds actual length data
+		char* p_stringarray;					//initial input array
+		char* p_inputstring;					//holds actual length data
 		//char **pp_database_string;			//allocate data database.cpp
 		int stringsize;							//holds array size to allocate memory
 		int charinput;							//holds array input size
